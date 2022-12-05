@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+ #shopbanner1{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.87) , rgba(255, 255, 255, 0.274)), url(shop/banner_shoes2.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    text-align: right;
+    flex-direction: column;
+    border: 2px solid #088178;
+    
+}
+#shopbanner1:hover{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.852) , rgba(255, 255, 255, 0.274)), url(shop/banner_shoes2.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: right;
+    flex-direction: column;
+    display: block;
+    border: 2px solid #088178;
+}
+
+#shopbanner1 #text{
+    padding: 9vw 15vw;
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+#shopbanner1 #text h1{
+        font-size: 70px;
+        font-weight: 600;
+    }
+#shopbanner1 #text h2{
+    font-size: 22px;
+    margin-right: 30px;
+    color: rgba(0, 0, 0, 0.74)
+}
+
+
+#shopbanner2{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.27) , rgba(255, 255, 255, 0)), url(shop/banner_wood.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+}
+#shopbanner2:hover{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.052) , rgba(255, 255, 255, 0)), url(shop/banner_wood.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#shopbanner2 img{
+    width: 28%;
+    height: auto;
+    box-shadow: 5px 10px 20px black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10px;
+}
+#shopbanner2 #text{
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+#shopbanner2 #text h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+#shopbanner2 #text h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#shopbanner2 #text a{
+    margin-left: 170px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 5px;
+    transition: .3s ease;
+}
+#shopbanner2 #text a:hover{
+    font-size: 43px;
+    color: black;
+}
+
+#shopbanner3{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.27) , rgba(255, 255, 255, 0)), url(shop/banner3.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    text-align: center;
+}
+#shopbanner3:hover{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.052) , rgba(255, 255, 255, 0)), url(shop/banner3.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shopbanner3 #text{
+    
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.573);
+    color: white;
+    padding: 30px;
+    font-weight: 800;
+    border: 3px solid white;
+}
+#shopbanner3 #text h1{
+    margin-top: 6vh;
+    font-size: 70px;
+    font-weight: 600;
+}
+#shopbanner3 #text h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#shopbanner3 #text a{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 5px;
+    transition: .3s ease;
+    color: white;
+}
+#shopbanner3 #text a:hover{
+    font-size: 43px;
+}
+#shopbanner4{
+    background:url(shop/banner_formals.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items:center;
+}
+#shopbanner4:hover{
+    background:url(shop/banner_formals.jpg);
+    height:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+#shopbanner4 #text{
+    margin-left: 3vw;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    font-weight: 800;
+}
+#shopbanner4 #text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+#shopbanner4 #text h2{
+    font-size: 30px;
+    
+    margin-bottom: 30px;
+}
+#shopbanner4 #text a{
+    margin-top: 2vh;
+    margin-left: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 5px;
+    transition: .3s ease;
+    color: white;
+}
+#shopbanner4 #text a:hover{
+    font-size: 43px;
+}
